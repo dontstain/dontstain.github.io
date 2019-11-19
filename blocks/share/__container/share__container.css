@@ -1,0 +1,9 @@
+.share__container {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .share__container {
+    display: block;
+  }
+}

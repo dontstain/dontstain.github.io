@@ -1,0 +1,21 @@
+.menu__item {
+  display: flex;
+}
+
+.menu__item:nth-of-type(1) {
+  margin-right: 52px;;
+}
+
+.menu__item:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .menu__item {
+    align-items: baseline; 
+  }
+
+  .menu__item:nth-of-type(1) {
+      margin-right: 65px;
+  }
+}

@@ -1,0 +1,6 @@
+.button {
+    /* font-family: inherit; */
+}
+ .button:hover {
+    cursor: pointer;
+ }

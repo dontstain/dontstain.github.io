@@ -1,0 +1,21 @@
+.stories__map {
+  width: 100%;
+  height: 680px;
+  margin-bottom: 160px;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__map {
+    height: 560px;
+    margin-bottom: 153px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .stories__map {
+    width: calc(100% + 48px);
+    transform: translate(-24px, 0);
+    margin-bottom: 80px;
+  }
+}

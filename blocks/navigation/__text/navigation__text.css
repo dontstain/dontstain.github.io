@@ -1,0 +1,28 @@
+.navigation__text {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-right: 8px;
+    font-family: inherit;
+    font-size: 21px;
+    line-height: 23px;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation__text {
+        width: calc(100% - 40px); 
+        height: 24px;
+        padding: 10px 20px;
+        text-transform: none;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.5em;
+        letter-spacing: normal;
+    }
+
+    .navigation__text:hover {
+        background-color: rgb(104, 49, 121); 
+    }
+}

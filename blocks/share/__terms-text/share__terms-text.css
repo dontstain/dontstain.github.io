@@ -1,0 +1,6 @@
+.share__terms-text {
+  width: calc(100% - 10px - 16px);
+  font-size: 14px;
+  line-height: 19px;
+  color: #653D7C;
+}

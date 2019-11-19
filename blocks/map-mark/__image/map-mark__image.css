@@ -1,0 +1,8 @@
+.map-mark__image {
+  position: relative;
+  width: 100%;
+  max-height: 166px;
+  object-fit: cover;
+  margin-bottom: -12px;
+  z-index: 1;
+}

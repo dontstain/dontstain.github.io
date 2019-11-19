@@ -1,0 +1,31 @@
+.navigation__dropdown-item {
+  width: 100%;
+  margin: 0;
+  padding: 12px 5px 12px 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-top: 0;
+  font-family: inherit;
+  font-size: 19px;
+  color: black;
+}
+
+.navigation__dropdown-item:hover {
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__dropdown-item {
+    width: calc(100% - 65px);
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px 10px 45px;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  
+  .navigation__dropdown-item:hover {
+    background-color: rgb(104, 49, 121); 
+  }
+}

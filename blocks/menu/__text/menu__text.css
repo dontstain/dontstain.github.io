@@ -1,0 +1,15 @@
+@import url(./_list/menu__text_list.css);
+@import url(./_map/menu__text_map.css);
+
+.menu__text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 480px) {
+  .menu__text {
+      font-size: 14px;
+      line-height: 19px;
+  }
+}

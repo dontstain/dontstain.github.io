@@ -1,0 +1,23 @@
+.header__menu {
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+.header__menu:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu {
+    display: block;
+    top: 62px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__menu {
+    display: block;
+    top: 54px;
+  }
+}

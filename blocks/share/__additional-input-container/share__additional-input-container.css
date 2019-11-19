@@ -1,0 +1,10 @@
+@import url(./_attach/share__additional-input-container_attach.css);
+
+.share__additional-input-container {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.share__additional-input-container:last-of-type {
+  margin-bottom: 35px;
+}

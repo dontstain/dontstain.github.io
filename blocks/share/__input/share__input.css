@@ -1,0 +1,12 @@
+@import url(./_type/_checkbox/share__input_type_checkbox.css);
+@import url(./_type/_text/share__input_type_text.css);
+@import url(./_story/share__input_story.css);
+
+.share__input {
+  background-color: transparent;
+  outline: none;
+}
+
+.share__input::placeholder {
+  color: #BAB9BC;
+}

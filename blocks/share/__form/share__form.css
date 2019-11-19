@@ -1,0 +1,15 @@
+.share__form {
+  width: calc(100% / 1.74);
+}
+
+@media screen and (max-width: 768px) {
+  .share__form {
+    width: calc(100% - 16px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .share__form {
+    width: 100%;
+  }
+}

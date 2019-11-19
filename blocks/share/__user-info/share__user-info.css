@@ -1,0 +1,10 @@
+.share__user-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .share__user-info {
+    display: block;
+  }
+}

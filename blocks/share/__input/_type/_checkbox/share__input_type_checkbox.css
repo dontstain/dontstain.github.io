@@ -1,0 +1,9 @@
+.share__input_type_checkbox {
+  width: 16px;
+  height: 16px;
+  transform: translate(3px, 5px);
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid #653D7C;
+  border-radius: 2px;
+}

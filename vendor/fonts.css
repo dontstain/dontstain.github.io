@@ -1,0 +1,8 @@
+@import url(./fonts/opensans/opensans.css);
+
+@font-face {
+    font-family: 'Neucha';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/fonts/neucha.woff2');
+}

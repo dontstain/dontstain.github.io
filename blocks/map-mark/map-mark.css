@@ -1,0 +1,25 @@
+@import url(./__text/map-mark__text.css);
+@import url(./__region/map-mark__region.css);
+@import url(./__name/map-mark__name.css);
+@import url(./__image/map-mark__image.css);
+@import url(./__info/map-mark__info.css);
+@import url(./__close-button/map-mark__close-button.css);
+@import url(./__content/map-mark__content.css);
+@import url(./__arrow/map-mark__arrow.css);
+
+.map-mark {
+  position: absolute;
+  z-index: 1010;
+  max-width: 276px;
+  text-align: left;
+  white-space: normal;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  background-clip: padding-box;
+  display: block;
+  border: 0;
+  padding: 0; 
+  margin-top: -10px;
+  
+}

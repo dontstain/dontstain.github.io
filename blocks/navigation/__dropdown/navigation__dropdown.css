@@ -1,0 +1,19 @@
+.navigation__dropdown {
+  display: none;
+  list-style: none;
+  position: absolute;
+  top: 52px;
+  left: -10px;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+  font-family: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__dropdown {
+    position: static;
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.map-mark__close-button {
+  position: absolute;
+  color: white;
+  right: 10px;
+  top: 1px;
+  font-size: 28px;
+  z-index: 2;
+}
+
+.map-mark__close-button:hover {
+  text-decoration: none;
+  color: #333;
+}

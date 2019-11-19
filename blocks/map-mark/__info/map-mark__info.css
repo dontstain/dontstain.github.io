@@ -1,0 +1,7 @@
+.map-mark__info {
+  position: relative;
+  width: calc(100% - 32px);
+  padding: 5px 16px 0;
+  background: white;
+  z-index: 2;
+}

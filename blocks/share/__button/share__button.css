@@ -1,0 +1,13 @@
+.share__button {
+  width: 180px;
+  height: 48px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  color: #653D7C; 
+  border: 2px solid #653D7C;
+  border-radius: 4px;
+}

@@ -1,0 +1,9 @@
+.navigation__arrow {
+
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__arrow {
+    display: none;
+  }
+}

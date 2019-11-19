@@ -1,0 +1,7 @@
+.share__input_type_text {
+  width: 100%;
+  min-height: 25px;
+  margin: 0 0 52px 0; 
+  border: none;
+  border-block-end: 2px solid #9F82C9;
+}

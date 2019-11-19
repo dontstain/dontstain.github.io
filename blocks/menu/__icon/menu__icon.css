@@ -1,0 +1,11 @@
+.menu__icon {
+  margin-right: 12px;
+}
+
+@media screen and (max-width: 480px) {
+  .menu__icon {
+      width: 18px;
+      height: 24px;
+      transform: translate(5px, 5px);
+  }
+}

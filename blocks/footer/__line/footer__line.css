@@ -1,0 +1,11 @@
+.footer__line {
+  width: 100%;
+  min-height: 52px;
+  background: url(../../../images/footer-line-bg\ 1.png);
+}
+
+@media screen and (max-width: 480px) {
+  .footer__line {
+    min-height: 40px;
+  }
+}

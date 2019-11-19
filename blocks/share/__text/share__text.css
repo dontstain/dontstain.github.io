@@ -1,0 +1,22 @@
+.share__text {
+  width: calc(100% / 3.33);
+  margin: 0 calc(100% / 12) 0 0;
+  font-family: 'Neucha';
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 135%;
+  color: #572D70;
+}
+
+@media screen and (max-width: 768px) {
+  .share__text {
+    width: 100%;
+    margin: 0 0 65px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .share__text {
+    margin: 0 0 37px; 
+  }
+}

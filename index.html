@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Право на чудо</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+    <div class="root">
+        <header class="header root__section">
+            <div class="header__container">
+                <img src="./images/Pravonachudo_logo.svg" alt="Логотип Право на чудо" class="header__logo">
+                <img src="./images/menu-icon.svg" alt="Иконка меню" class="header__menu">
+            </div>
+            <nav class="navigation">
+                <button class="button navigation__close-button">
+                    &times;
+                </button>
+                <div class="navigation__item">
+                    <p class="navigation__text">
+                        О фонде
+                    </p>
+                    <img src="./images/arrow.svg" alt="Развернуть" class="navigation__arrow">
+                    <ul class="navigation__dropdown">
+                        <li class="navigation__dropdown-item">
+                            О проблеме
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Миссия, цели
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Программы фонда
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Команда
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Нас поддерживают
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Документы
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Отчёты
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            СМИ о нас
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Контакты
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation__item">
+                    <p class="navigation__text">
+                        Семьям
+                    </p>
+                    <img src="./images/arrow.svg" alt="Развернуть" class="navigation__arrow">
+                    <ul class="navigation__dropdown">
+                        <li class="navigation__dropdown-item">
+                            Если вам нужна помощь
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            База знаний
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Online-школа
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Истории успеха
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation__item">
+                    <p class="navigation__text">
+                        Помочь фонду  
+                    </p>
+                    <img src="./images/arrow.svg" alt="Развернуть" class="navigation__arrow">
+                    <ul class="navigation__dropdown">
+                        <li class="navigation__dropdown-item">
+                            Сделать пожертвование
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            От имени компании
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Помочь товарами/услугами
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Чудо-волонтёры
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Чудо-событие
+                        </li>
+                        <li class="navigation__dropdown-item">
+                            Информационная поддержка
+                        </li>
+                    </ul>
+                </div>
+                
+                <button class="button navigation__donate-button">
+                    Сделать пожертвование
+                </button>
+            </nav>
+        </header>
+
+        <main class="content root__section">
+            <section class="intro">
+                <h1 class="intro__heading">
+                    Истории мам и малышей
+                </h1>
+                <p class="intro__text">
+                    В этом разделе мы собрали вдохновляющие истории успеха мам и их малышей. 
+                </p>
+                <p class="intro__text">
+                    Если у вас есть подобный жизненный опыт, поделитесь им с нами и другими мамами. Для этого отправьте нам свою историю, заполнив <a href="#share" class="link intro__link">специальную форму</a>. 
+                </p>
+            </section>
+
+            <section class="stories">
+                <menu class="menu">
+                    <li class="menu__item menu__item_map">
+                        <img src="./images/Globe.svg" alt="Иконка глобуса" class="menu__icon">
+                        <p class="menu__text menu__text_map">
+                            Показать на карте
+                        </p>
+                    </li>
+
+                    <li class="menu__item menu__item_list">
+                        <img src="./images/List.svg" alt="Иконка списка" class="menu__icon">
+                        <p class="menu__text menu__text_list">
+                            В виде списка
+                        </p>
+                    </li>
+                </menu>
+                <div id="map" class="stories__map" ></div>
+                <ul class="stories__list block_hidden">
+                    <!-- Истории списком -->
+                </ul>
+            </section>
+
+            <section class="share" id="share">
+                <div class="share__container">
+                    <h2 class="share__text">
+                        Здесь форма, чтобы поделиться историей своего торопыжки. В  вашей истории можете, при желании, написать контакты для обратной связи.
+                    </h2>
+                    <form class="share__form">
+                        <div class="share__user-info">
+                            <div class="share__input-container">
+                                <label for="name" class="share__input-heading">
+                                    Имя торопыжки
+                                </label>
+                                <input type="text" name="name" id="name" class="share__input share__input_type_text" placeholder="Татьяна">
+                            </div>
+
+                            <div class="share__input-container">
+                                <label for="location" class="share__input-heading">
+                                    Регион проживания
+                                </label>
+                                <input type="text" name="location" id="location" class="share__input share__input_type_text" placeholder="Начните писать название региона">
+                            </div>
+                        </div>
+
+                        <div class="share__textarea-container">
+                            <label for="story" class="share__input-heading">
+                                История 
+                            </label>
+                            <textarea name="story" id="story" class="share__input share__input_story share__input_type_text" placeholder="Пишите свою историю"></textarea>
+                        </div>
+
+                        <div class="share__additional-input-container share__additional-input-container_attach">
+                            <img src="./images/clip.svg" alt="Иконка скрепки" class="share__clip">
+                            <span class="share__clip-text">
+                                Прикрепить фото
+                            </span>
+                        </div>
+
+                        <div class="share__additional-input-container">
+                            <input id="checkbox" type="checkbox" class="share__input share__input_type_checkbox">
+                            <label for="checkbox" class="share__terms-text">
+                                Нажимая кнопку «Отправить» я даю согласие на обработку персональных данных на условиях, изложенных в <a href="https://pravonachudo.ru/o-fonde/dokumenty/politika-konfidentsialnosti/" class="link share__link">«Политике конфиденциальности»</a>
+                            </label>
+                        </div>
+                        <button type="submit" class="button share__button">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer root__section">
+            <div class="footer__main">
+                <!-- Здесь будет контент -->
+            </div>
+            <div class="footer__line">
+                <!-- Здесь будет контент -->
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://yandex.st/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=b7afb7f6-bbda-4327-9c17-48139bd8038c&lang=ru_RU"></script>
+    <script src="./scripts/stories.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

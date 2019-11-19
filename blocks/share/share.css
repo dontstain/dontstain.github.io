@@ -1,0 +1,23 @@
+@import url(./__text/share__text.css);
+@import url(./__container/share__container.css);
+@import url(./__form/share__form.css);
+@import url(./__input-heading/share__input-heading.css);
+@import url(./__input/share__input.css);
+@import url(./__user-info/share__user-info.css);
+@import url(./__clip/share__clip.css);
+@import url(./__clip-text/share__clip-text.css);
+@import url(./__terms-text/share__terms-text.css);
+@import url(./__additional-input-container/share__additional-input-container.css);
+@import url(./__button/share__button.css);
+@import url(./__form/share__form.css);
+@import url(./__input-container/share__input-container.css);
+
+.share {
+  margin-bottom: 160px;
+}
+
+@media screen and (max-width: 480px) {
+  .share {
+    margin-bottom: 80px;
+  }
+}
