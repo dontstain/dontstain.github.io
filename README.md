@@ -1,3 +1,3 @@
 # Right for the miracle
 
-Interactive page with built in yandex.maps api
+Page with built in yandex.maps api set for potential incrementing of interactiviy
